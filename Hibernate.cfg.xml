@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- mapping files -->
+        <mapping class="com.xxx.comp.domain.catalog.Category"/>
+        <mapping class="com.xxx.comp.domain.catalog.ASegment"/>
+        <mapping class="com.xxx.comp.domain.catalog.SubCategory"/>
+        <mapping class="com.xxx.comp.domain.pricing.ApPricesheet"/>
+        <mapping class="com.xxx.comp.domain.pricing.ApBarcodeInfo"/>
+        <mapping class="com.xxx.comp.domain.pricing.ApBarcodeLine"/>
+        <mapping class="com.xxx.comp.domain.pricing.ApBarcodeLinePartItem"/>
+        <mapping class="com.xxx.comp.domain.pricing.ApBarcodeLineReleaseTarget"/>
+        <mapping class="com.xxx.comp.domain.catalog.ApplicationComment"/>
+        <mapping class="com.xxx.comp.domain.catalog.ApplicationPartNumber"/>
+        <mapping class="com.xxx.comp.domain.catalog.ApplicationSpecificConditionList"/>
+        <mapping class="com.xxx.comp.domain.catalog.ApplicationVehicle"/>
+        <mapping class="com.xxx.comp.domain.pricing.BarcodeType"/>
+        <mapping class="com.xxx.comp.domain.parts.Brand"/>
+        <mapping class="com.xxx.comp.domain.parts.BrandType"/>
+        <mapping class="com.xxx.comp.domain.catalog.CatalogApplication"/>
+        <mapping class="com.xxx.comp.domain.catalog.CatalogLine"/>
+        <mapping class="com.xxx.comp.domain.catalog.CatalogLineRegion"/>
+        <mapping class="com.xxx.comp.domain.catalog.CatalogLineReleaseTarget"/>
+        <mapping class="com.xxx.comp.domain.catalog.CatalogProject"/>
+        <mapping class="com.xxx.comp.domain.general.Company"/>
+
+        
+
+       
+
+    
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
